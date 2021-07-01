@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    margin: 0 auto;
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+
+header.header img {
+    width:  150px;
+}
+
+section.top-page {
+    background: url('../bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding:25px;
+}
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+.big-title{
+    color: white;
+    font-size: 80px;
+    font-family: cursive;
+}
+
+.scroll-down{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+
+
+/* menu de navigation */
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 800px;
+    margin-left: 100px;font-size: 25px;
+}
+
+nav.nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.services-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.delivery-icon {
+    font-size: 50px;
+    color: #ADD981;
+
+}
+
+.service-details {
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+}
+
+/* Best selles */
+
+.section-title{
+    font-size: 50px;
+    font-family:cursive;
+    font-weight: 1000;
+    position: relative;
+
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+
+
+.best-items{
+    margin: 100px;
+}
+
+.best-food{
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.no-grid{
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+
+}
+.recette1{
+    background-image: url(../images/hamburger.jpg);
+}
+.recette2{
+    background-image: url(../images/pouletcurry2.jpg);
+}
+.recette3 {
+    background-image: url(../images/achie.jpg);
+}
+.recette4 {
+    background-image: url(../images/frit.jpg);
+}
+
+.plant-details {
+    position: absolute;
+    width:100%;
+    bottom:0;
+    background-color: #FFFFFFDF;
+    padding: 5px 50px;
+}
+
+.plant-name{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* nos plantes */
+.all-plants{
+    margin: 100px;px;
+
+}
+
+.plant-grid{
+    display:  grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,400px);
+}
+
+.plant-grid1 {
+    background-image: url(../images/crepe.jpg);
+    
+   
+    
+}
+.plant-grid2{
+    background-image: url(../images/cookie.jpg);
+    
+}
+.plant-grid3 {
+    background-image: url(../images/p2.jpg);
+   
+    
+}
+.plant-grid4 {
+    background-image: url(../images/o.jpg);
+   
+}   
+
+/* pied de page */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+margin: 20px 100px;
+font-weight: 600;
+}
+
+footer a.cgv {
+
+    text-decoration: none;
+    color: black;
+    
+}
